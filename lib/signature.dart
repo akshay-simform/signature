@@ -295,7 +295,7 @@ class SignatureController extends ValueNotifier<List<Point>> {
   final Color penColor;
 
   /// boldness of a signature line
-  final double penStrokeWidth;
+  double penStrokeWidth;
 
   /// shape of line ends
   final StrokeCap strokeCap;
